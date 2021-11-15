@@ -1,0 +1,68 @@
+<h1>REGISTRATION PAGE</h1>
+<div class="reg-form">
+    <form id="reg-form-id" action="/register" method="POST">
+        <strong>User Name:</strong>
+        <br />
+        <input
+            type="text"
+            name="userName"
+            id="id_username"
+            placeholder="Enter Username"
+            required
+        />
+        <span id="sp1"></span>
+        <br />
+        <br />
+        <strong>E-Mail:</strong>
+        <br />
+        <input
+            type="email"
+            name="email"
+            id="id_email"
+            placeholder="Enter your Email"
+            required
+        />
+        <span id="sp3"></span>
+        <br />
+        <br />
+        <strong>MobileNum:</strong>
+        <br />
+        <input
+            type="text"
+            name="mobileNumber"
+            id="id_MobileNumber"
+            placeholder="Enter your Mobile Num "
+            required
+        />
+        <span id="sp4"></span>
+        <br />
+        <br />
+        <strong>Password:</strong>
+        <br />
+        <input
+            type="password"
+            name="password"
+            id="id_password"
+            placeholder="Enter Password"
+            required
+        />
+        <span id="sp2"></span>
+        <br />
+        <br />
+        <%# <strong>Re-Enter-Password:</strong>
+        <br />
+        <input
+            type="password"
+            name=" reenter_password"
+            id="id_reenter_password"
+            placeholder="Re-Enter Password"
+            required
+        />
+        <span id="sp2"></span>
+        <br />
+        <br />
+        %>
+        <button type="submit">REGISTER</button>
+    </form>
+    <a href="/login"> Login </a>
+</div>

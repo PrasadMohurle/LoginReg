@@ -1,13 +1,21 @@
 {
-  "name": "task",
+  "name": "loginreg",
   "version": "1.0.0",
-  "description": "Login and Registration with node.js",
+  "description": "This is simple login and registration application with express.js",
   "main": "index.ejs",
   "scripts": {
     "start": "nodemon server.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PrasadMohurle/LoginReg.git"
+  },
   "author": "Prasad Mohurle",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PrasadMohurle/LoginReg/issues"
+  },
+  "homepage": "https://github.com/PrasadMohurle/LoginReg#readme",
   "dependencies": {
     "bcrypt": "^5.0.1",
     "ejs": "^3.1.6",
